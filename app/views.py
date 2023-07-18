@@ -6,3 +6,7 @@ from django.shortcuts import render
 
 def test_api(request):
     return JsonResponse({"result": "success"})
+
+
+def test_api2(request):
+    return JsonResponse({"result": "success"})
